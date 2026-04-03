@@ -1,6 +1,6 @@
-﻿{
+{
   "version": 1,
-  "generated_at": "2026-03-29T06:31:57.771Z",
+  "generated_at": "2026-04-03T10:20:08.421Z",
   "source": "https://kael-odin.github.io/digital-human-protocol",
   "apps": [
     {
@@ -12,8 +12,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/bilibili-comment-replier",
-      "size_bytes": 17798,
-      "checksum": "sha256:b624ed6826a7e2bd8254f1d60b781cb76e2974ea7361d8cef11f853f998982a4",
+      "size_bytes": 17809,
+      "checksum": "sha256:2beb2775422bcede3ea755a56c1ef469c8bc706703a974df35e5c1fb246566c4",
       "category": "social",
       "tags": [
         "bilibili",
@@ -34,7 +34,7 @@
         "bili-get-messages",
         "bili-reply"
       ],
-      "updated_at": "2026-03-29T06:31:56.870Z",
+      "updated_at": "2026-04-03T10:20:07.652Z",
       "i18n": {
         "en-US": {
           "name": "Bilibili Comment Replier",
@@ -54,8 +54,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/boss-job-monitor",
-      "size_bytes": 6597,
-      "checksum": "sha256:0461f8681f0ebdbe80a5fef1b51d1c212e6d26c6bbd499e49a14d3b022cc65e9",
+      "size_bytes": 6600,
+      "checksum": "sha256:5e639c7fc655c064e21a16c5b79fa901a836be8fdf77341d02123bac8c88ee41",
       "category": "productivity",
       "tags": [
         "jobs",
@@ -70,7 +70,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-03-29T06:31:56.870Z",
+      "updated_at": "2026-04-03T10:20:07.652Z",
       "i18n": {
         "zh-CN": {
           "name": "Boss直聘职位监控",
@@ -87,8 +87,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/changelog-generator",
-      "size_bytes": 10172,
-      "checksum": "sha256:b1483494dc57e9a78f8b258bdcd43b51a24a744f15b6eaa18cd280f1a21a0f18",
+      "size_bytes": 10175,
+      "checksum": "sha256:ed083f5b62b4f816ff842c76b2cc74c5a0f82d9ca8f282c10fe0577491754f4b",
       "category": "dev-tools",
       "tags": [
         "changelog",
@@ -101,7 +101,7 @@
       "icon": "dev",
       "locale": "en-US",
       "min_app_version": "0.5.0",
-      "updated_at": "2026-03-29T06:31:56.870Z",
+      "updated_at": "2026-04-03T10:20:07.652Z",
       "i18n": {
         "zh-CN": {
           "name": "Changelog 自动生成器",
@@ -118,8 +118,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/cicd-failure-analyst",
-      "size_bytes": 10056,
-      "checksum": "sha256:07def387c5f3b76d81d9ac30fe1863937619946afaf504468b401e028f113a31",
+      "size_bytes": 10059,
+      "checksum": "sha256:e37ec8c2d241e5103d44d373413ab24519f8eaed314651be71e9f79ff8d008a0",
       "category": "dev-tools",
       "tags": [
         "ci",
@@ -136,7 +136,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-03-29T06:31:56.870Z",
+      "updated_at": "2026-04-03T10:20:07.652Z",
       "i18n": {
         "zh-CN": {
           "name": "CI 构建失败分析师",
@@ -153,8 +153,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/cn-stock-daily",
-      "size_bytes": 5239,
-      "checksum": "sha256:0e86c69382c24c8a3b35837e7a4b79722aadf043a7ff4859f24e21fff13f7723",
+      "size_bytes": 5242,
+      "checksum": "sha256:e3786b6c7c9da6f41adbb5805c5ff0ff89af5b4b38a2a45f71ac9319ecca3d4a",
       "category": "data",
       "tags": [
         "stocks",
@@ -170,7 +170,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-03-29T06:31:56.870Z",
+      "updated_at": "2026-04-03T10:20:07.652Z",
       "i18n": {
         "zh-CN": {
           "name": "A股港股日报",
@@ -187,8 +187,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/complexity-watchdog",
-      "size_bytes": 9871,
-      "checksum": "sha256:39738d0fe95a44ff2a605aaff8482002f0c2f4867abdd525959a8858559eb326",
+      "size_bytes": 9874,
+      "checksum": "sha256:c6293f51822dbb1150f4248efc0b7d3ab042510d69f3d63f0c83b6ef571c9f74",
       "category": "dev-tools",
       "tags": [
         "code-quality",
@@ -202,7 +202,7 @@
       "icon": "dev",
       "locale": "en-US",
       "min_app_version": "0.5.0",
-      "updated_at": "2026-03-29T06:31:56.870Z",
+      "updated_at": "2026-04-03T10:20:07.652Z",
       "i18n": {
         "zh-CN": {
           "name": "代码复杂度守卫",
@@ -219,8 +219,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/daily-weather-outfit",
-      "size_bytes": 5686,
-      "checksum": "sha256:4ea1183cffc9bcd94fd5d87456f3e4252487fd8c04004b63634e3418e47bab20",
+      "size_bytes": 5689,
+      "checksum": "sha256:698bf2862eda74752df72d7230a1f962e3e1e73b652e12b7a3b5c8b7328f2773",
       "category": "productivity",
       "tags": [
         "weather",
@@ -235,7 +235,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-03-29T06:31:56.870Z",
+      "updated_at": "2026-04-03T10:20:07.653Z",
       "i18n": {
         "zh-CN": {
           "name": "每日天气穿搭助手",
@@ -252,8 +252,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/dependency-vulnerability-scanner",
-      "size_bytes": 10009,
-      "checksum": "sha256:f9828d160060986d4ca71fa04a09d7be4da3336c13dc3e6272cf88d82cec6bdd",
+      "size_bytes": 10012,
+      "checksum": "sha256:6b81d8430dfcd89390badf2be183796db52ce66bb4594c63dd333d77064bc1da",
       "category": "dev-tools",
       "tags": [
         "security",
@@ -267,7 +267,7 @@
       "icon": "dev",
       "locale": "en-US",
       "min_app_version": "0.5.0",
-      "updated_at": "2026-03-29T06:31:56.870Z",
+      "updated_at": "2026-04-03T10:20:07.653Z",
       "i18n": {
         "zh-CN": {
           "name": "依赖漏洞侦察兵",
@@ -284,8 +284,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/douyin-comment-replier",
-      "size_bytes": 6649,
-      "checksum": "sha256:76ca018e905875fdf38b267e2651aa9fb4958b549834381c9b822bd18aac9742",
+      "size_bytes": 6652,
+      "checksum": "sha256:43d99c4d321fec43253ee2da01014ed9abbddc5cff0119a1b1b1f091ec9e3391",
       "category": "social",
       "tags": [
         "douyin",
@@ -300,7 +300,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-03-29T06:31:56.870Z",
+      "updated_at": "2026-04-03T10:20:07.653Z",
       "i18n": {
         "zh-CN": {
           "name": "抖音评论自动回复",
@@ -317,8 +317,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/ecom-price-monitor",
-      "size_bytes": 6848,
-      "checksum": "sha256:e3060dbca14ba7724d632a2a290b7456f3c3c1bffd8ae24a9fe74a4ee39552f1",
+      "size_bytes": 6851,
+      "checksum": "sha256:c94a87ab714ea53013824405bb9323bf34b2110728b0d07b19cafc22ba7179a9",
       "category": "shopping",
       "tags": [
         "price",
@@ -334,7 +334,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-03-29T06:31:56.871Z",
+      "updated_at": "2026-04-03T10:20:07.653Z",
       "i18n": {
         "zh-CN": {
           "name": "电商价格库存监控官",
@@ -351,8 +351,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/github-issue-triager",
-      "size_bytes": 9647,
-      "checksum": "sha256:aa667390bfe0958ed2b343c66e5240ca82c926e75d4ea397b1514511b75657e6",
+      "size_bytes": 9650,
+      "checksum": "sha256:009d63475882c6aeee3ab319dd63eb1ca0837390efd6f97a34d3324fa17217dd",
       "category": "dev-tools",
       "tags": [
         "github",
@@ -368,7 +368,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-03-29T06:31:56.871Z",
+      "updated_at": "2026-04-03T10:20:07.653Z",
       "i18n": {
         "zh-CN": {
           "name": "GitHub Issue 分诊官",
@@ -385,8 +385,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/github-pr-reviewer",
-      "size_bytes": 6158,
-      "checksum": "sha256:16daef18772b9bf29aa3c4301dc16b4a7d43167297ad24c84a22516ceb4c510d",
+      "size_bytes": 6161,
+      "checksum": "sha256:c884f93d9f0cc4a850b7864bc411fb033569608ee17d9f576c5709a6a056f276",
       "category": "dev-tools",
       "tags": [
         "github",
@@ -401,7 +401,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-03-29T06:31:56.871Z",
+      "updated_at": "2026-04-03T10:20:07.653Z",
       "i18n": {
         "zh-CN": {
           "name": "GitHub PR 审查员",
@@ -418,8 +418,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/hn-daily",
-      "size_bytes": 4565,
-      "checksum": "sha256:a470fe31c1f0637015f9d0f80286f80c47d875e3651fbcd1c3223a5dfd4ef6db",
+      "size_bytes": 4568,
+      "checksum": "sha256:ca91ae0623dd0b02fb853d1402eb38bdae2b860a85abcb62d36e9d958d489460",
       "category": "news",
       "tags": [
         "hn",
@@ -433,7 +433,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-03-29T06:31:56.871Z",
+      "updated_at": "2026-04-03T10:20:07.653Z",
       "i18n": {
         "zh-CN": {
           "name": "HN 每日简报",
@@ -453,8 +453,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/jd-price-hunter",
-      "size_bytes": 5450,
-      "checksum": "sha256:cc2d860d10c1d1d4b78539407129890c104e76ff26a7aace8d21be09e794f661",
+      "size_bytes": 5453,
+      "checksum": "sha256:e0f89cf3c4dd1793f4d8c05d7a9af138cfb63d4e5fe183687d3d9c3399e5eaf3",
       "category": "shopping",
       "tags": [
         "shopping",
@@ -468,7 +468,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-03-29T06:31:56.871Z",
+      "updated_at": "2026-04-03T10:20:07.653Z",
       "i18n": {
         "zh-CN": {
           "name": "京东价格猎手",
@@ -485,8 +485,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/parcel-tracker",
-      "size_bytes": 5483,
-      "checksum": "sha256:61bc138d479da5896234caa8b7f292ab101ef642c1f8f9c2c959311cc48b55f0",
+      "size_bytes": 5486,
+      "checksum": "sha256:f5c1c7708e11e71ffbb671b1e4779ad7533c90269612663e4ca3a47b635da4f8",
       "category": "productivity",
       "tags": [
         "parcel",
@@ -501,7 +501,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-03-29T06:31:56.871Z",
+      "updated_at": "2026-04-03T10:20:07.653Z",
       "i18n": {
         "zh-CN": {
           "name": "快递追踪助手",
@@ -518,8 +518,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/release-gatekeeper",
-      "size_bytes": 8952,
-      "checksum": "sha256:a1106d1de9767d6214a1b14bcfd3cf9ef7a29c03ac307da10f7d680047b8613c",
+      "size_bytes": 8955,
+      "checksum": "sha256:32b6fa532e1da7df1c1404544cf00a73302e95feb4dd73d419aadb60f2f78f30",
       "category": "dev-tools",
       "tags": [
         "release",
@@ -532,7 +532,7 @@
       "icon": "dev",
       "locale": "en-US",
       "min_app_version": "0.5.0",
-      "updated_at": "2026-03-29T06:31:56.871Z",
+      "updated_at": "2026-04-03T10:20:07.653Z",
       "i18n": {
         "zh-CN": {
           "name": "发布风险守门员",
@@ -549,8 +549,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/sentiment-monitor",
-      "size_bytes": 7308,
-      "checksum": "sha256:062a838540aae5025c24884a4106ca3b1932aa1ce48474041aa43f004bab041f",
+      "size_bytes": 7311,
+      "checksum": "sha256:8dfb5de1ea5d20cfaa9340690bbd182b65ba547e919368e38a9824364e92d96a",
       "category": "news",
       "tags": [
         "brand",
@@ -566,7 +566,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-03-29T06:31:56.871Z",
+      "updated_at": "2026-04-03T10:20:07.653Z",
       "i18n": {
         "zh-CN": {
           "name": "舆情监测官",
@@ -586,8 +586,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/site-health-monitor",
-      "size_bytes": 6441,
-      "checksum": "sha256:1c59ab559b2d816cf10d79b259a87b993c15c89b34d09fff1461a3df39ad6957",
+      "size_bytes": 6444,
+      "checksum": "sha256:0634798fcc95187bca2000a93097bda6f46481fd1be59ef78d81220f75f5f2b5",
       "category": "dev-tools",
       "tags": [
         "uptime",
@@ -603,7 +603,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-03-29T06:31:56.871Z",
+      "updated_at": "2026-04-03T10:20:07.653Z",
       "i18n": {
         "zh-CN": {
           "name": "网站健康巡检官",
@@ -620,8 +620,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/taobao-price-hunter",
-      "size_bytes": 6552,
-      "checksum": "sha256:5d3ac73d75df69adb1e183a3e60e92509573813560738d9bc4c38dd745b4aa2c",
+      "size_bytes": 6555,
+      "checksum": "sha256:bc627ebc9605e046c55ed4296a445d66bd4e2af4baf5c676d133cebf4e879946",
       "category": "shopping",
       "tags": [
         "taobao",
@@ -636,7 +636,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-03-29T06:31:56.871Z",
+      "updated_at": "2026-04-03T10:20:07.653Z",
       "i18n": {
         "zh-CN": {
           "name": "淘宝天猫价格猎手",
@@ -653,8 +653,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/tender-radar",
-      "size_bytes": 7013,
-      "checksum": "sha256:7738725f8e7bc0129c661a88d72c51babfa5e8df631f48bb6acb59684e66ca39",
+      "size_bytes": 7016,
+      "checksum": "sha256:b4aa7dc69d23e89c54885660f364edda9116531d70227b0c9e29e0dfe5fe769a",
       "category": "productivity",
       "tags": [
         "tender",
@@ -669,7 +669,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-03-29T06:31:56.872Z",
+      "updated_at": "2026-04-03T10:20:07.654Z",
       "i18n": {
         "zh-CN": {
           "name": "招投标机会雷达",
@@ -686,8 +686,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/ticket-triage-agent",
-      "size_bytes": 6474,
-      "checksum": "sha256:37c29d43b3cd529f3398a6eb943c72c9b7bc251b2e5c7827d31a36d6f7f0ef2f",
+      "size_bytes": 6477,
+      "checksum": "sha256:007d94574218ec695d5f15abf8e66900e49b51533b27226910235b2104140946",
       "category": "productivity",
       "tags": [
         "support",
@@ -700,7 +700,7 @@
       "icon": "productivity",
       "locale": "zh-CN",
       "min_app_version": "0.5.0",
-      "updated_at": "2026-03-29T06:31:56.872Z",
+      "updated_at": "2026-04-03T10:20:07.654Z",
       "i18n": {
         "zh-CN": {
           "name": "客服工单分诊官",
@@ -717,8 +717,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/train-ticket-watcher",
-      "size_bytes": 6975,
-      "checksum": "sha256:7bcd4a04e7328afa3402e77058f8d4ebda2da896773cdff37e39e7cb71904ee1",
+      "size_bytes": 6978,
+      "checksum": "sha256:432bfbf85efd0d33391a73ba0bc8fba771088b2173668d7785bc5a7e98141357",
       "category": "productivity",
       "tags": [
         "train",
@@ -732,7 +732,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-03-29T06:31:56.872Z",
+      "updated_at": "2026-04-03T10:20:07.654Z",
       "i18n": {
         "zh-CN": {
           "name": "12306 余票监控",
@@ -749,8 +749,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/wechat-article-monitor",
-      "size_bytes": 5353,
-      "checksum": "sha256:87010458201ad42a137d4838b487d3b80d3044f642db2b784b75d8c6a29320d4",
+      "size_bytes": 5356,
+      "checksum": "sha256:f995e851c38f3b04eef50a2b1f5f0cfe6d2cd7da94da259095e60792fb5ba32f",
       "category": "content",
       "tags": [
         "wechat",
@@ -764,7 +764,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-03-29T06:31:56.872Z",
+      "updated_at": "2026-04-03T10:20:07.654Z",
       "i18n": {
         "zh-CN": {
           "name": "微信文章监控",
@@ -781,8 +781,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/wechat-group-assistant",
-      "size_bytes": 9076,
-      "checksum": "sha256:d122c3346237b51ea36fdd24b0f1b3a41c862581b743a8c3faf6feeedf9b01b2",
+      "size_bytes": 9079,
+      "checksum": "sha256:f3c7140cc2b7f9cc352a0d5eabaf6202f06d17712ebee36dc0a3949163cbae88",
       "category": "social",
       "tags": [
         "wechat",
@@ -794,7 +794,7 @@
       "icon": "social",
       "locale": "zh-CN",
       "min_app_version": "0.5.0",
-      "updated_at": "2026-03-29T06:31:56.872Z"
+      "updated_at": "2026-04-03T10:20:07.654Z"
     },
     {
       "slug": "wechat-group-assistant-http",
@@ -805,8 +805,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/wechat-group-assistant-http",
-      "size_bytes": 9883,
-      "checksum": "sha256:205279b8ccaec652c0c7e8e4372d3095e1b1ece1c708715b4460de47298962e4",
+      "size_bytes": 9886,
+      "checksum": "sha256:4752f717d86282997c97e83a57c76a494d4268011c875bd46e154cdef56206a5",
       "category": "social",
       "tags": [
         "wechat",
@@ -818,7 +818,7 @@
       "icon": "social",
       "locale": "zh-CN",
       "min_app_version": "0.5.0",
-      "updated_at": "2026-03-29T06:31:56.872Z",
+      "updated_at": "2026-04-03T10:20:07.654Z",
       "i18n": {
         "zh-CN": {
           "name": "微信群 AI 数字人",
@@ -835,8 +835,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/weibo-hot-tracker",
-      "size_bytes": 5320,
-      "checksum": "sha256:84b34410573e68554c919be48593970dd6119683df60e571eed40e3642757ee1",
+      "size_bytes": 5323,
+      "checksum": "sha256:df2172f7674b21e8e46633a640dcf6683595fe59dfbfa5fb5cdbdbcb85c65306",
       "category": "social",
       "tags": [
         "weibo",
@@ -850,7 +850,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-03-29T06:31:56.872Z",
+      "updated_at": "2026-04-03T10:20:07.654Z",
       "i18n": {
         "zh-CN": {
           "name": "微博热点追踪",
@@ -870,8 +870,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/xianyu-deal-hunter",
-      "size_bytes": 5732,
-      "checksum": "sha256:586c5c97262a278f0b765d99e5ab41db18088a89fa6b518ce404f3b1a0a0ef02",
+      "size_bytes": 5735,
+      "checksum": "sha256:82233e4a5144438d7713f98f12334e66d1b01619f2d525f91f8b730fed96055d",
       "category": "shopping",
       "tags": [
         "xianyu",
@@ -886,7 +886,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-03-29T06:31:56.872Z",
+      "updated_at": "2026-04-03T10:20:07.654Z",
       "i18n": {
         "zh-CN": {
           "name": "闲鱼捡漏助手",
@@ -903,8 +903,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/xiaohongshu-ai-engager",
-      "size_bytes": 22108,
-      "checksum": "sha256:a9823417eacb50749b20039d2e0c89e9258144ffd1f94c2fcaf6726703abcfc1",
+      "size_bytes": 22129,
+      "checksum": "sha256:668f9cc3698e7314a8f1682caf448e1939f488ab46c618d8e06396092db99192",
       "category": "social",
       "tags": [
         "xiaohongshu",
@@ -925,7 +925,7 @@
         "xhs-search",
         "xhs-comment"
       ],
-      "updated_at": "2026-03-29T06:31:56.874Z",
+      "updated_at": "2026-04-03T10:20:07.655Z",
       "meta": {
         "rank": 4
       }
@@ -939,8 +939,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/xiaohongshu-keyword-monitor",
-      "size_bytes": 17775,
-      "checksum": "sha256:1577c5ec1f82d7f6502ce4adea2de6530447064f018a9363cc1cf05c3e9c4616",
+      "size_bytes": 17787,
+      "checksum": "sha256:8a0745fd5da91f0603f0a2e41b83319860f632c9f77ee96e1d6e98319d4dc0f8",
       "category": "social",
       "tags": [
         "xiaohongshu",
@@ -958,7 +958,7 @@
       "requires_skills": [
         "xhs-search"
       ],
-      "updated_at": "2026-03-29T06:31:56.874Z",
+      "updated_at": "2026-04-03T10:20:07.655Z",
       "i18n": {
         "zh-CN": {
           "name": "小红书关键词监控",
@@ -978,8 +978,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/zhihu-ai-answerer",
-      "size_bytes": 18875,
-      "checksum": "sha256:46f02edbc7ad2e0b17ba5bdb8d3d5b2be9e34567df5563e0f93bf5c803fd25a3",
+      "size_bytes": 18902,
+      "checksum": "sha256:b744e1faa0c77c8eedfab9a63b071603e42b2dc42165a268c1db195612890bc6",
       "category": "social",
       "tags": [
         "zhihu",
@@ -1000,7 +1000,7 @@
         "zhihu-fill-editor",
         "zhihu-publish-answer"
       ],
-      "updated_at": "2026-03-29T06:31:56.874Z"
+      "updated_at": "2026-04-03T10:20:07.655Z"
     },
     {
       "slug": "zhihu-topic-monitor",
@@ -1011,8 +1011,8 @@
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/zhihu-topic-monitor",
-      "size_bytes": 5419,
-      "checksum": "sha256:a9438a517246b0a2ade21e0714176e4e9630c28874eb9f264ad8c20b6ecf9148",
+      "size_bytes": 5422,
+      "checksum": "sha256:164c6fce15fb255425a14ff82791300655cfaada38cd509d595593643ae98b35",
       "category": "content",
       "tags": [
         "zhihu",
@@ -1027,7 +1027,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-03-29T06:31:56.874Z",
+      "updated_at": "2026-04-03T10:20:07.655Z",
       "i18n": {
         "zh-CN": {
           "name": "知乎话题监控",
@@ -1037,5 +1037,3 @@
     }
   ]
 }
-
-
