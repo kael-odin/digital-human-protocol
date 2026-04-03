@@ -1,1 +1,2 @@
-console.log("demo-mcp placeholder");
+﻿console.log("demo-mcp placeholder");
+

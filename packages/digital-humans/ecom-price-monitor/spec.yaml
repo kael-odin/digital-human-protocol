@@ -1,4 +1,4 @@
-spec_version: "1"
+﻿spec_version: "1"
 name: Ecom Price Monitor
 version: "1.0.0"
 author: openkursar
@@ -71,7 +71,7 @@ system_prompt: |-
   Set `memory.last_run_at`.
 
   ## Escalation
-  Escalate if ALL products failed to load in the same run (possible network issue or Halo offline).
+  Escalate if ALL products failed to load in the same run (possible network issue or Cafe offline).
   Ask: "所有商品页面均无法访问，请检查网络或页面地址是否有效。"
 
 config_schema:
@@ -172,3 +172,4 @@ i18n:
         options:
           zh-CN: 中文
           en-US: English
+

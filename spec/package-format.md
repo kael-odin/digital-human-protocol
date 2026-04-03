@@ -1,4 +1,4 @@
-# DHP Package Format
+﻿# DHP Package Format
 
 A **DHP** digital human package is always a **bundle** — a directory containing a `spec.yaml` and any
 optional supporting files.
@@ -99,3 +99,4 @@ requires:
 
 See [`spec/app-spec.md`](app-spec.md) for the complete list of all supported fields with types,
 constraints, and examples.
+

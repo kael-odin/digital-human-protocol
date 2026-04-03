@@ -1,4 +1,4 @@
----
+﻿---
 name: xhs-search
 description: Search Xiaohongshu posts by keyword and return structured data via XHR interception
 allowed-tools: ai-browser
@@ -82,3 +82,4 @@ When you need to search Xiaohongshu for posts by keyword. This skill handles log
 | Not logged in | `{ "success": false, "logged_in": false, "error": "Not logged in to Xiaohongshu" }` |
 | No search results | `{ "success": true, "logged_in": true, "posts": [], "total": 0, "has_more": false }` |
 | API timeout | `{ "success": false, "error": "Search API did not respond within timeout" }` |
+

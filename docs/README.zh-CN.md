@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 # 数字人协议 (DHP)
 
@@ -46,7 +46,7 @@ spec.yaml  ->  安装  ->  自动运行  ->  通知用户
 
 DHP **与运行时解耦**：spec 定义“做什么、何时做”，运行时负责“如何执行”。
 
-**兼容运行时：** [Halo](https://halo.app)
+**兼容运行时：** [Cafe](https://Cafe.app)
 
 ---
 
@@ -215,3 +215,4 @@ node scripts/build-index.mjs
 [回到顶部](#数字人协议-dhp)
 
 </div>
+

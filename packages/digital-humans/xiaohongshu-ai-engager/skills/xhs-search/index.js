@@ -1,4 +1,4 @@
-/**
+﻿/**
  * XHS Search — browser_run script
  *
  * Executes inside the Xiaohongshu search results page context.
@@ -184,3 +184,4 @@ async (params) => {
     return isNaN(num) ? 0 : num
   }
 }
+

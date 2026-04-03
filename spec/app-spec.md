@@ -1,4 +1,4 @@
-# DHP App Spec Reference
+﻿# DHP App Spec Reference
 
 Every digital human is defined by a single `spec.yaml` file that conforms to this specification.
 The spec declares what an agent does, when it runs, what it needs, and how it behaves — the runtime
@@ -803,3 +803,4 @@ i18n:
       "https://creator.xiaohongshu.com":
         label: "小红书创作者中心"
 ```
+

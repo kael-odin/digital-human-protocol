@@ -1,4 +1,4 @@
-{
+﻿{
   "spec_version": "1",
   "name": "CRM Query Skill",
   "version": "0.1.0",
@@ -7,3 +7,4 @@
   "type": "skill",
   "system_prompt": "You translate analyst requests into precise CRM query plans."
 }
+

@@ -1,4 +1,4 @@
-// zhihu-open-editor: 在当前问题页打开回答编辑器
+﻿// zhihu-open-editor: 在当前问题页打开回答编辑器
 // 调用前需已导航到: https://www.zhihu.com/question/<id>
 // params: {}
 // returns: { success, already_open?, error? }
@@ -51,3 +51,4 @@ async (params) => {
   await new Promise(r => setTimeout(r, 1000));
   return { success: true };
 }
+

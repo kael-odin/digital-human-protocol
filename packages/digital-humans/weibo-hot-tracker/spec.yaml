@@ -1,4 +1,4 @@
-spec_version: "1"
+﻿spec_version: "1"
 name: Weibo Hot Tracker
 version: "2.0.0"
 author: openkursar
@@ -157,3 +157,4 @@ i18n:
         options:
           en-US: English
           zh-CN: 中文
+

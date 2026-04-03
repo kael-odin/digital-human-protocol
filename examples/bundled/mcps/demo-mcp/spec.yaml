@@ -1,4 +1,4 @@
-{
+﻿{
   "spec_version": "1",
   "name": "Demo MCP",
   "version": "0.1.0",
@@ -10,3 +10,4 @@
     "args": ["index.js"]
   }
 }
+

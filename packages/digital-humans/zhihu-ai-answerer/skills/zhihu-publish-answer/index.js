@@ -1,4 +1,4 @@
-// zhihu-publish-answer: 发布当前已填写内容的回答
+﻿// zhihu-publish-answer: 发布当前已填写内容的回答
 // 调用前需已用 zhihu-fill-editor 将内容写入编辑器
 // params: {}
 // returns: { success, char_count?, error? }
@@ -28,3 +28,4 @@ async (params) => {
 
   return { success: true, char_count: charCount };
 }
+

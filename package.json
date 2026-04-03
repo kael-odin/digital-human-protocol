@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "digital-human-protocol",
   "version": "1.0.0",
   "private": true,
@@ -12,3 +12,4 @@
     "yaml": "^2.7.0"
   }
 }
+

@@ -1,4 +1,4 @@
-name: Validate Registry
+﻿name: Validate Registry
 
 on:
   pull_request:
@@ -18,3 +18,4 @@ jobs:
 
       - name: Verify index.json is current
         run: node scripts/build-index.mjs --check --source=https://openkursar.github.io/digital-human-protocol
+

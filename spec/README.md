@@ -1,4 +1,4 @@
-# Digital Human Protocol (DHP)
+﻿# Digital Human Protocol (DHP)
 
 DHP defines packaging and registry discovery for digital-human apps.
 
@@ -12,3 +12,4 @@ Goals:
 - Keep package format simple for first-time contributors.
 - Keep registry protocol source-agnostic (`index.json` over HTTP).
 - Support future expansion to bundled dependencies.
+

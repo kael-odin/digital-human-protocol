@@ -1,4 +1,4 @@
-name: Build Index
+﻿name: Build Index
 
 on:
   push:
@@ -37,3 +37,4 @@ jobs:
           git add index.json
           git commit -m "chore: update index.json [skip ci]"
           git push
+

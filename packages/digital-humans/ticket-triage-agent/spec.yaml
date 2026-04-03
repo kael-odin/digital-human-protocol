@@ -1,4 +1,4 @@
-spec_version: "1"
+﻿spec_version: "1"
 name: Ticket Triage Agent
 version: "1.0.0"
 author: openkursar
@@ -99,7 +99,7 @@ config_schema:
     required: true
     default: "tickets"
     placeholder: "tickets"
-    description: "The webhook endpoint path. Your ticket system should POST new tickets to: https://your-halo-host/hooks/[this value]"
+    description: "The webhook endpoint path. Your ticket system should POST new tickets to: https://your-Cafe-host/hooks/[this value]"
 
   - key: team_name
     label: Support Team Name
@@ -165,7 +165,7 @@ i18n:
     config_schema:
       webhook_path:
         label: Webhook 路径
-        description: "工单系统将新工单 POST 到：https://your-halo-host/hooks/[此值]"
+        description: "工单系统将新工单 POST 到：https://your-Cafe-host/hooks/[此值]"
         placeholder: "tickets"
       team_name:
         label: 客服团队名称
@@ -176,3 +176,4 @@ i18n:
         options:
           zh-CN: 中文
           en-US: English
+

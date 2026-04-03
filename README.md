@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 # AI Digital Human Protocol (DHP)
 
@@ -46,7 +46,7 @@ spec.yaml  ->  install  ->  run automatically  ->  notify user
 
 DHP is **runtime-agnostic**. The spec defines what the agent does and when it runs; the runtime executes it.
 
-**Compatible runtime:** [Halo](https://github.com/openkursar/hello-halo/)
+**Compatible runtime:** [Cafe](https://github.com/openkursar/hello-Cafe/)
 
 ---
 
@@ -224,3 +224,4 @@ Protocol spec: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) · 
 [Back to Top](#digital-human-protocol-dhp)
 
 </div>
+

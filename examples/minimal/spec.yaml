@@ -1,4 +1,4 @@
-spec_version: "1"
+﻿spec_version: "1"
 name: "HN Daily Brief"
 version: "1.0.0"
 author: "openkursar"
@@ -71,3 +71,4 @@ store:
   min_app_version: "0.5.0"
   license: MIT
   repository: "https://github.com/openkursar/digital-human-protocol"
+

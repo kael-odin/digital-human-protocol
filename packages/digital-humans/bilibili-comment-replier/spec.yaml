@@ -1,4 +1,4 @@
-spec_version: "1"
+﻿spec_version: "1"
 name: B站评论自动回复
 version: 2.0.0
 author: openkursar
@@ -97,13 +97,13 @@ config_schema:
     type: text
     required: false
     default: ""
-    placeholder: 我是一名独立开发者，专注于 AI Agent 桌面工具开发，主要讲解 Halo 开源项目的使用和原理。
+    placeholder: 我是一名独立开发者，专注于 AI Agent 桌面工具开发，主要讲解 Cafe 开源项目的使用和原理。
     description: 描述 UP 主的内容方向和专业背景，引导 AI 生成符合人设的回复语气
   - key: reply_signature
     label: 回复签名
     type: string
     required: false
-    default: ——halo b 站数字人
+    default: ——Cafe b 站数字人
     placeholder: ——AI 助手代回
     description: 可选，每条回复结尾附加的文字；留空则不添加签名
   - key: max_replies_per_run
@@ -191,7 +191,7 @@ i18n:
       creator_persona:
         label: Creator Persona
         description: Describe the creator's content focus and expertise to guide the AI's reply tone
-        placeholder: I'm an indie developer focused on AI Agent desktop tools, mainly explaining the Halo open-source project.
+        placeholder: I'm an indie developer focused on AI Agent desktop tools, mainly explaining the Cafe open-source project.
       reply_signature:
         label: Reply Signature
         description: Optional text appended to every reply; leave blank for no signature
@@ -204,3 +204,4 @@ i18n:
         options:
           zh-CN: 中文
           en-US: English
+

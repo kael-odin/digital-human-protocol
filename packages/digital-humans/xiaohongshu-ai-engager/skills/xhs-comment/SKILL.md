@@ -1,4 +1,4 @@
----
+﻿---
 name: xhs-comment
 description: 在小红书帖子详情页发表评论，通过 execCommand 注入文字 + XHR 拦截确认发布成功
 allowed-tools: ai-browser
@@ -71,3 +71,4 @@ user-invocable: false
 2. `dispatchEvent(new Event('input', { bubbles: true }))` — 手动触发 Vue 监听的 input 事件
 3. 等待 400ms Vue nextTick 异步更新后点击发送
 4. XHR 拦截 `comment/post` 响应，通过 `success: true` 确认发布成功，而非依赖 DOM 变化判断
+

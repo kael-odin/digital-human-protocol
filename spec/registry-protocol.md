@@ -1,4 +1,4 @@
-# Registry Protocol
+﻿# Registry Protocol
 
 Clients read a registry from:
 
@@ -52,4 +52,5 @@ interface RegistryEntry {
   i18n?: Record<string, { name?: string; description?: string }>
 }
 ```
+
 

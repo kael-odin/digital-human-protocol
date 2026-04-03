@@ -1,4 +1,4 @@
-spec_version: "1"
+﻿spec_version: "1"
 name: Code Complexity Watchdog
 version: "1.0.0"
 author: openkursar
@@ -237,3 +237,4 @@ i18n:
         options:
           en-US: English
           zh-CN: 中文
+

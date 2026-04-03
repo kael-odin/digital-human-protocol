@@ -1,4 +1,4 @@
-# Contributing
+﻿# Contributing
 
 ## Add a New Digital Human
 
@@ -36,3 +36,4 @@ Use one of:
 - `data`
 - `social`
 - `other`
+

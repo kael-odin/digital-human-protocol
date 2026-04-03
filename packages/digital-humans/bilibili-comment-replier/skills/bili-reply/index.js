@@ -1,4 +1,4 @@
-/**
+﻿/**
  * bili-reply — browser_run script
  *
  * 在任意 bilibili.com 页面上下文中执行（cookies 自动携带）。
@@ -118,3 +118,4 @@ async (params) => {
     return { success: false, error: String(err?.message || err) }
   }
 }
+

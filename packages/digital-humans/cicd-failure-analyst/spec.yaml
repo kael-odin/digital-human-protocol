@@ -1,4 +1,4 @@
-spec_version: "1"
+﻿spec_version: "1"
 name: CI Failure Analyst
 version: "1.0.0"
 author: openkursar
@@ -141,7 +141,7 @@ config_schema:
     required: true
     default: "ci-failures"
     placeholder: "ci-failures"
-    description: "The webhook URL path. Configure your GitHub repo webhook to POST to: https://your-halo-host/hooks/[this value] — select event type: Workflow runs."
+    description: "The webhook URL path. Configure your GitHub repo webhook to POST to: https://your-Cafe-host/hooks/[this value] — select event type: Workflow runs."
 
   - key: escalate_after_n_failures
     label: Escalate After N Consecutive Failures
@@ -213,7 +213,7 @@ i18n:
         placeholder: "owner/repo"
       webhook_path:
         label: Webhook 路径
-        description: "Webhook URL 路径。在 GitHub 仓库 Webhook 设置中，将 URL 配置为：https://your-halo-host/hooks/[此值]，事件类型选择 Workflow runs。"
+        description: "Webhook URL 路径。在 GitHub 仓库 Webhook 设置中，将 URL 配置为：https://your-Cafe-host/hooks/[此值]，事件类型选择 Workflow runs。"
         placeholder: "ci-failures"
       escalate_after_n_failures:
         label: 连续失败几次后升级
@@ -223,3 +223,4 @@ i18n:
         options:
           en-US: English
           zh-CN: 中文
+

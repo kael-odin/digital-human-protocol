@@ -1,4 +1,4 @@
-// zhihu-creator-invited: 从知乎创作者中心获取被邀请回答的问题列表
+﻿// zhihu-creator-invited: 从知乎创作者中心获取被邀请回答的问题列表
 // 调用前需已导航到: https://www.zhihu.com/creator/featured-question/invited
 // params: { max_results?: number }
 // returns: { success, questions[], count, error? }
@@ -39,3 +39,4 @@ async (params) => {
 
   return { success: true, questions, count: questions.length };
 }
+

@@ -1,4 +1,4 @@
-/**
+﻿/**
  * bili-get-messages — browser_run script
  *
  * 在 message.bilibili.com/#/reply 页面上下文中执行。
@@ -153,3 +153,4 @@ async (params) => {
     }
   }
 }
+

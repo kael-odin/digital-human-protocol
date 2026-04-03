@@ -1,4 +1,4 @@
-// zhihu-fill-editor: 通过合成 ClipboardEvent 更新 Draft.js editorState
+﻿// zhihu-fill-editor: 通过合成 ClipboardEvent 更新 Draft.js editorState
 // 必须在 zhihu-open-editor 成功后调用
 // params: { text: string }
 // returns: { success, char_count?, error? }
@@ -29,3 +29,4 @@ async (params) => {
 
   return { success: true, char_count: charCount };
 }
+

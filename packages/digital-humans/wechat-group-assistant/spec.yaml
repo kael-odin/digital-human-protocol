@@ -1,8 +1,8 @@
-spec_version: "1"
+﻿spec_version: "1"
 name: 微信群 AI 数字人(web 版本)
 version: "2.0.0"
 author: openkursar
-description: 部署在微信群里的 AI 数字分身，通过微信网页版 DOM 自动监控群消息并智能回复。使用前提：在 Halo AI 浏览器中打开 wx.qq.com 并保持登录状态，无需任何额外配置或桥接服务。
+description: 部署在微信群里的 AI 数字分身，通过微信网页版 DOM 自动监控群消息并智能回复。使用前提：在 Cafe AI 浏览器中打开 wx.qq.com 并保持登录状态，无需任何额外配置或桥接服务。
 type: automation
 icon: social
 system_prompt: |-
@@ -158,13 +158,13 @@ config_schema:
     label: 主人群昵称
     type: text
     required: true
-    placeholder: "fly｜Halo"
+    placeholder: "fly｜Cafe"
     description: 主人在微信群里显示的昵称，用于识别主人身份（与消息发送者昵称匹配）
   - key: group_name
     label: 群聊名称
     type: text
     required: true
-    placeholder: "Halo&AI&科技&杂聊"
+    placeholder: "Cafe&AI&科技&杂聊"
     description: 要监控的微信群名称，需与微信网页版左侧列表中显示的名称完全一致
   - key: domain_focus
     label: 话题聚焦范围
@@ -234,3 +234,4 @@ store:
   min_app_version: "0.5.0"
   license: MIT
   repository: https://github.com/openkursar/digital-human-protocol
+

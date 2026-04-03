@@ -1,4 +1,4 @@
-# Categories
+﻿# Categories
 
 Allowed category values:
 
@@ -10,3 +10,4 @@ Allowed category values:
 - `data`
 - `social`
 - `other`
+

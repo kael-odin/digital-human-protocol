@@ -1,4 +1,4 @@
-spec_version: "1"
+﻿spec_version: "1"
 name: Release Gatekeeper
 version: "1.0.0"
 author: openkursar
@@ -248,3 +248,4 @@ i18n:
         options:
           zh-CN: 中文
           en-US: English
+

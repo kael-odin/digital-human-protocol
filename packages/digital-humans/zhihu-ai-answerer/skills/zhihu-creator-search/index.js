@@ -1,4 +1,4 @@
-// zhihu-creator-search: 从知乎创作者搜索页提取问题列表（含实时增量数据）
+﻿// zhihu-creator-search: 从知乎创作者搜索页提取问题列表（含实时增量数据）
 // 调用前需已导航到: https://www.zhihu.com/creator/search-question/day?q=<关键词>&sort=
 // params: { max_results?: number }
 // returns: { success, questions[], count, error? }
@@ -45,3 +45,4 @@ async (params) => {
 
   return { success: true, questions, count: questions.length };
 }
+

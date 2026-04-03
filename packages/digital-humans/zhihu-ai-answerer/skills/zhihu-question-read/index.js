@@ -1,4 +1,4 @@
-// zhihu-question-read: 读取当前问题页的标题、描述、回答数和TOP回答
+﻿// zhihu-question-read: 读取当前问题页的标题、描述、回答数和TOP回答
 // 调用前需已导航到: https://www.zhihu.com/question/<id>
 // params: { top_answers?: number (default 3) }
 // returns: { success, question, description, answer_count, follower_count, top_answers[] }
@@ -59,3 +59,4 @@ async (params) => {
     error: !title ? 'Could not find question title' : null,
   };
 }
+

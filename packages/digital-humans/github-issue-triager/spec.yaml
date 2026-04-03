@@ -1,4 +1,4 @@
-spec_version: "1"
+﻿spec_version: "1"
 name: GitHub Issue Triager
 version: "1.0.0"
 author: openkursar
@@ -148,7 +148,7 @@ config_schema:
     required: true
     default: "github-issues"
     placeholder: "github-issues"
-    description: "Webhook URL path. In GitHub repo Settings → Webhooks, set URL to: https://your-halo-host/hooks/[this value]. Select event: Issues."
+    description: "Webhook URL path. In GitHub repo Settings → Webhooks, set URL to: https://your-Cafe-host/hooks/[this value]. Select event: Issues."
 
   - key: auto_label
     label: Auto-apply Labels
@@ -235,7 +235,7 @@ i18n:
         placeholder: "owner/repo"
       webhook_path:
         label: Webhook 路径
-        description: "在 GitHub 仓库 Settings → Webhooks 中，将 URL 设为：https://your-halo-host/hooks/[此值]，事件选择 Issues。"
+        description: "在 GitHub 仓库 Settings → Webhooks 中，将 URL 设为：https://your-Cafe-host/hooks/[此值]，事件选择 Issues。"
         placeholder: "github-issues"
       auto_label:
         label: 自动打标签
@@ -248,3 +248,4 @@ i18n:
         options:
           en-US: English
           zh-CN: 中文
+

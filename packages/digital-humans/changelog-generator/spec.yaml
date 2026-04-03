@@ -1,4 +1,4 @@
-spec_version: "1"
+﻿spec_version: "1"
 name: Changelog Generator
 version: "1.0.0"
 author: openkursar
@@ -174,7 +174,7 @@ config_schema:
     required: true
     default: "git-push"
     placeholder: "git-push"
-    description: "Webhook URL path. In GitHub repo Settings → Webhooks, set URL to: https://your-halo-host/hooks/[this value]. Select event: Pushes."
+    description: "Webhook URL path. In GitHub repo Settings → Webhooks, set URL to: https://your-Cafe-host/hooks/[this value]. Select event: Pushes."
 
   - key: project_path
     label: Project Directory (for auto-write)
@@ -256,7 +256,7 @@ i18n:
         placeholder: "main"
       webhook_path:
         label: Webhook 路径
-        description: "在 GitHub 仓库 Settings → Webhooks 中，将 URL 设为：https://your-halo-host/hooks/[此值]，事件选择 Pushes。"
+        description: "在 GitHub 仓库 Settings → Webhooks 中，将 URL 设为：https://your-Cafe-host/hooks/[此值]，事件选择 Pushes。"
         placeholder: "git-push"
       project_path:
         label: 项目目录（自动写入）
@@ -274,3 +274,4 @@ i18n:
         options:
           en-US: English
           zh-CN: 中文
+

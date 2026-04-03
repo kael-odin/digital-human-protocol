@@ -1,4 +1,4 @@
-/**
+﻿/**
  * XHS Comment — browser_run 脚本
  *
  * 在小红书帖子详情页上下文中执行。
@@ -126,3 +126,4 @@ async (params) => {
     delete window.__xhs_commentResp
   }
 }
+
