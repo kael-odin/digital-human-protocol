@@ -5,7 +5,7 @@ import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from "
 import { basename, join, relative, sep } from "path";
 import { parse as parseYaml, stringify as stringifyYaml } from "yaml";
 
-const DEFAULT_SOURCE = "https://openkursar.github.io/digital-human-protocol";
+const DEFAULT_SOURCE = "https://kael-odin.github.io/digital-human-protocol";
 const SLUG_REGEX = /^[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/;
 
 function toPosixPath(pathValue) {
@@ -398,4 +398,5 @@ function main() {
 }
 
 main();
+
 

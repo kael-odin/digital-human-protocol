@@ -1,7 +1,7 @@
 ﻿spec_version: "1"
 name: Changelog Generator
 version: "1.0.0"
-author: openkursar
+author: kael-odin
 description: Listens for pushes to your main branch via webhook, parses commit messages following Conventional Commits, and generates a formatted Keep-a-Changelog entry automatically.
 type: automation
 icon: dev
@@ -243,7 +243,7 @@ store:
   locale: en-US
   min_app_version: "0.5.0"
   license: MIT
-  repository: https://github.com/openkursar/digital-human-protocol
+  repository: https://github.com/kael-odin/digital-human-protocol
 
 i18n:
   zh-CN:
@@ -274,4 +274,5 @@ i18n:
         options:
           en-US: English
           zh-CN: 中文
+
 

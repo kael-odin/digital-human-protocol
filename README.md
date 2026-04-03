@@ -6,10 +6,10 @@
 
 Build, distribute, and run production-ready digital humans with one portable spec.
 
-[![GitHub Stars](https://img.shields.io/github/stars/openkursar/digital-human-protocol?style=social)](https://github.com/openkursar/digital-human-protocol/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/kael-odin/digital-human-protocol?style=social)](https://github.com/kael-odin/digital-human-protocol/stargazers)
 [![Spec License: CC0](https://img.shields.io/badge/spec-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![Examples License: MIT](https://img.shields.io/badge/examples-MIT-blue.svg)](https://opensource.org/license/mit)
-[![Registry](https://img.shields.io/badge/registry-live-brightgreen.svg)](https://openkursar.github.io/digital-human-protocol/index.json)
+[![Registry](https://img.shields.io/badge/registry-live-brightgreen.svg)](https://kael-odin.github.io/digital-human-protocol/index.json)
 
 [Quickstart](#quickstart) · [Docs](#documentation-map) · [Examples](#examples) · [Contributing](#contributing) · **[中文](./docs/README.zh-CN.md)**
 
@@ -46,7 +46,7 @@ spec.yaml  ->  install  ->  run automatically  ->  notify user
 
 DHP is **runtime-agnostic**. The spec defines what the agent does and when it runs; the runtime executes it.
 
-**Compatible runtime:** [Cafe](https://github.com/openkursar/hello-Cafe/)
+**Compatible runtime:** [Cafe](https://github.com/kael-odin/hello-Cafe/)
 
 ---
 
@@ -208,7 +208,7 @@ We welcome production-grade specs, tooling improvements, and documentation quali
 
 ## Registry
 
-- **Index URL:** `https://openkursar.github.io/digital-human-protocol/index.json`
+- **Index URL:** `https://kael-odin.github.io/digital-human-protocol/index.json`
 - **Protocol details:** [`spec/registry-protocol.md`](spec/registry-protocol.md)
 
 Clients fetch `index.json`, then install each package via its `spec.yaml` path.
@@ -224,4 +224,5 @@ Protocol spec: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) · 
 [Back to Top](#digital-human-protocol-dhp)
 
 </div>
+
 

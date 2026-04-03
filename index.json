@@ -1,19 +1,19 @@
-{
+﻿{
   "version": 1,
-  "generated_at": "2026-04-03T09:42:17.997Z",
-  "source": "https://openkursar.github.io/digital-human-protocol",
+  "generated_at": "2026-03-29T06:31:57.771Z",
+  "source": "https://kael-odin.github.io/digital-human-protocol",
   "apps": [
     {
       "slug": "bilibili-comment-replier",
       "name": "B站评论自动回复",
       "version": "2.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "监控 B 站消息中心的评论通知，以 UP 主身份对新评论发送有针对性的回复，避免重复。",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/bilibili-comment-replier",
-      "size_bytes": 17810,
-      "checksum": "sha256:43c7c00d47f272f9309b574930e4b72745496811f0ad2d65e2f9408fa6862424",
+      "size_bytes": 17798,
+      "checksum": "sha256:b624ed6826a7e2bd8254f1d60b781cb76e2974ea7361d8cef11f853f998982a4",
       "category": "social",
       "tags": [
         "bilibili",
@@ -34,7 +34,7 @@
         "bili-get-messages",
         "bili-reply"
       ],
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.870Z",
       "i18n": {
         "en-US": {
           "name": "Bilibili Comment Replier",
@@ -49,13 +49,13 @@
       "slug": "boss-job-monitor",
       "name": "Boss Job Monitor",
       "version": "1.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Monitors Boss Zhipin daily for new job listings matching your keywords and city, ranks them by fit, and delivers a clean digest.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/boss-job-monitor",
-      "size_bytes": 6601,
-      "checksum": "sha256:637bc04a6726df191281064910888ba941980be3acc51e2444380c170e278f86",
+      "size_bytes": 6597,
+      "checksum": "sha256:0461f8681f0ebdbe80a5fef1b51d1c212e6d26c6bbd499e49a14d3b022cc65e9",
       "category": "productivity",
       "tags": [
         "jobs",
@@ -70,7 +70,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.870Z",
       "i18n": {
         "zh-CN": {
           "name": "Boss直聘职位监控",
@@ -82,13 +82,13 @@
       "slug": "changelog-generator",
       "name": "Changelog Generator",
       "version": "1.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Listens for pushes to your main branch via webhook, parses commit messages following Conventional Commits, and generates a formatted Keep-a-Changelog entry automatically.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/changelog-generator",
-      "size_bytes": 10176,
-      "checksum": "sha256:98b5b047bd0eff062ef0054612ad4b45d49ccdf0f8e8e4823156d5c06177bec9",
+      "size_bytes": 10172,
+      "checksum": "sha256:b1483494dc57e9a78f8b258bdcd43b51a24a744f15b6eaa18cd280f1a21a0f18",
       "category": "dev-tools",
       "tags": [
         "changelog",
@@ -101,7 +101,7 @@
       "icon": "dev",
       "locale": "en-US",
       "min_app_version": "0.5.0",
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.870Z",
       "i18n": {
         "zh-CN": {
           "name": "Changelog 自动生成器",
@@ -113,13 +113,13 @@
       "slug": "cicd-failure-analyst",
       "name": "CI Failure Analyst",
       "version": "1.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Receives GitHub Actions failure notifications via webhook, fetches the build logs, diagnoses the root cause, and delivers a fix direction — before you even open the console.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/cicd-failure-analyst",
-      "size_bytes": 10060,
-      "checksum": "sha256:a556884dfc916fca2c36a54deeb960d3463021970bcd4486ba49ee861bb95ef5",
+      "size_bytes": 10056,
+      "checksum": "sha256:07def387c5f3b76d81d9ac30fe1863937619946afaf504468b401e028f113a31",
       "category": "dev-tools",
       "tags": [
         "ci",
@@ -136,7 +136,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.870Z",
       "i18n": {
         "zh-CN": {
           "name": "CI 构建失败分析师",
@@ -148,13 +148,13 @@
       "slug": "cn-stock-daily",
       "name": "CN Stock Daily",
       "version": "1.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Delivers a concise daily digest of your A-share or HK-share watchlist after market close — price changes, volume highlights, and key news.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/cn-stock-daily",
-      "size_bytes": 5243,
-      "checksum": "sha256:82ded9958719c623aa951ef15aed143bf9c570d478f71c549edf4ccd861d8b63",
+      "size_bytes": 5239,
+      "checksum": "sha256:0e86c69382c24c8a3b35837e7a4b79722aadf043a7ff4859f24e21fff13f7723",
       "category": "data",
       "tags": [
         "stocks",
@@ -170,7 +170,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.870Z",
       "i18n": {
         "zh-CN": {
           "name": "A股港股日报",
@@ -182,13 +182,13 @@
       "slug": "complexity-watchdog",
       "name": "Code Complexity Watchdog",
       "version": "1.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Watches your source files for changes and runs instant complexity checks — alerts when a file grows too large or accumulates too many TODO/FIXME markers, so tech debt stays visible.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/complexity-watchdog",
-      "size_bytes": 9875,
-      "checksum": "sha256:de9d9a0c95c4ffd5261c276fed8079b2f85029b5c61b9d56426afebb1ff69370",
+      "size_bytes": 9871,
+      "checksum": "sha256:39738d0fe95a44ff2a605aaff8482002f0c2f4867abdd525959a8858559eb326",
       "category": "dev-tools",
       "tags": [
         "code-quality",
@@ -202,7 +202,7 @@
       "icon": "dev",
       "locale": "en-US",
       "min_app_version": "0.5.0",
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.870Z",
       "i18n": {
         "zh-CN": {
           "name": "代码复杂度守卫",
@@ -214,13 +214,13 @@
       "slug": "daily-weather-outfit",
       "name": "Daily Weather & Outfit",
       "version": "1.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Delivers a personalized morning brief every day — today's weather, a practical outfit recommendation, and any travel advisories worth knowing.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/daily-weather-outfit",
-      "size_bytes": 5690,
-      "checksum": "sha256:fd22ae48736ab3881e3be3351f89ffffa6b8e83f33ff7dcf955c595cfe78bcda",
+      "size_bytes": 5686,
+      "checksum": "sha256:4ea1183cffc9bcd94fd5d87456f3e4252487fd8c04004b63634e3418e47bab20",
       "category": "productivity",
       "tags": [
         "weather",
@@ -235,7 +235,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.870Z",
       "i18n": {
         "zh-CN": {
           "name": "每日天气穿搭助手",
@@ -247,13 +247,13 @@
       "slug": "dependency-vulnerability-scanner",
       "name": "Dependency Vulnerability Scanner",
       "version": "1.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Watches your project's dependency files for changes and runs a scheduled weekly scan — alerts when new security vulnerabilities are found, sorted by severity.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/dependency-vulnerability-scanner",
-      "size_bytes": 10013,
-      "checksum": "sha256:d9a38fbf034ee795a757580dae2c91b99ebd6cfbd04059c4467cbe4185945c67",
+      "size_bytes": 10009,
+      "checksum": "sha256:f9828d160060986d4ca71fa04a09d7be4da3336c13dc3e6272cf88d82cec6bdd",
       "category": "dev-tools",
       "tags": [
         "security",
@@ -267,7 +267,7 @@
       "icon": "dev",
       "locale": "en-US",
       "min_app_version": "0.5.0",
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.870Z",
       "i18n": {
         "zh-CN": {
           "name": "依赖漏洞侦察兵",
@@ -279,13 +279,13 @@
       "slug": "douyin-comment-replier",
       "name": "Douyin Comment Replier",
       "version": "1.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Monitors a Douyin video for new comments and auto-replies as the creator — friendly, specific, and duplicate-free.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/douyin-comment-replier",
-      "size_bytes": 6653,
-      "checksum": "sha256:89506cbd473a59d1b88dd6a745fc2c6d77357d033d9d74bbc947be365a10d8e0",
+      "size_bytes": 6649,
+      "checksum": "sha256:76ca018e905875fdf38b267e2651aa9fb4958b549834381c9b822bd18aac9742",
       "category": "social",
       "tags": [
         "douyin",
@@ -300,7 +300,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.870Z",
       "i18n": {
         "zh-CN": {
           "name": "抖音评论自动回复",
@@ -312,13 +312,13 @@
       "slug": "ecom-price-monitor",
       "name": "Ecom Price Monitor",
       "version": "1.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Tracks prices and stock status across multiple e-commerce platforms for any product URLs you provide — alerts when a target price is hit or stock changes.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/ecom-price-monitor",
-      "size_bytes": 6852,
-      "checksum": "sha256:6e02e9a82a8ff51485009ab403d36218dbc6416df13b6edcf14f4e5e7e69dbf5",
+      "size_bytes": 6848,
+      "checksum": "sha256:e3060dbca14ba7724d632a2a290b7456f3c3c1bffd8ae24a9fe74a4ee39552f1",
       "category": "shopping",
       "tags": [
         "price",
@@ -334,7 +334,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.871Z",
       "i18n": {
         "zh-CN": {
           "name": "电商价格库存监控官",
@@ -346,13 +346,13 @@
       "slug": "github-issue-triager",
       "name": "GitHub Issue Triager",
       "version": "1.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Receives new GitHub issues via webhook, classifies them by type, applies labels, posts a professional first response, and escalates critical or security issues immediately.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/github-issue-triager",
-      "size_bytes": 9651,
-      "checksum": "sha256:3c45c937042f46e45e92d9343dfcc2565b743eb85340fd42a5950d45464a8323",
+      "size_bytes": 9647,
+      "checksum": "sha256:aa667390bfe0958ed2b343c66e5240ca82c926e75d4ea397b1514511b75657e6",
       "category": "dev-tools",
       "tags": [
         "github",
@@ -368,7 +368,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.871Z",
       "i18n": {
         "zh-CN": {
           "name": "GitHub Issue 分诊官",
@@ -380,13 +380,13 @@
       "slug": "github-pr-reviewer",
       "name": "GitHub PR Reviewer",
       "version": "2.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Automatically reviews open pull requests and merges those that meet all quality criteria; flags the rest for human decision.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/github-pr-reviewer",
-      "size_bytes": 6162,
-      "checksum": "sha256:9bda0eeaf9c8d5efc37b7dfd44b97ad458f7ba7e2ee9dc9e517e43b4b2c386ec",
+      "size_bytes": 6158,
+      "checksum": "sha256:16daef18772b9bf29aa3c4301dc16b4a7d43167297ad24c84a22516ceb4c510d",
       "category": "dev-tools",
       "tags": [
         "github",
@@ -401,7 +401,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.871Z",
       "i18n": {
         "zh-CN": {
           "name": "GitHub PR 审查员",
@@ -413,13 +413,13 @@
       "slug": "hn-daily",
       "name": "HN Daily Brief",
       "version": "2.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Summarizes high-value Hacker News discussions every morning and delivers a deduped, actionable digest.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/hn-daily",
-      "size_bytes": 4569,
-      "checksum": "sha256:6d2a64b78b826a0162b893c930f5260e4e1be1ae1958019a1b3d6a7fe7625965",
+      "size_bytes": 4565,
+      "checksum": "sha256:a470fe31c1f0637015f9d0f80286f80c47d875e3651fbcd1c3223a5dfd4ef6db",
       "category": "news",
       "tags": [
         "hn",
@@ -433,7 +433,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.871Z",
       "i18n": {
         "zh-CN": {
           "name": "HN 每日简报",
@@ -448,13 +448,13 @@
       "slug": "jd-price-hunter",
       "name": "JD Price Hunter",
       "version": "2.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Monitors a JD product page for price drops and promotions, notifies when the price hits the target, and avoids duplicate alerts.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/jd-price-hunter",
-      "size_bytes": 5454,
-      "checksum": "sha256:a2d2c2d6eb9754a17f57400c2e3a94621c5407f2bcd49ee0ec452e155b434a39",
+      "size_bytes": 5450,
+      "checksum": "sha256:cc2d860d10c1d1d4b78539407129890c104e76ff26a7aace8d21be09e794f661",
       "category": "shopping",
       "tags": [
         "shopping",
@@ -468,7 +468,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.871Z",
       "i18n": {
         "zh-CN": {
           "name": "京东价格猎手",
@@ -480,13 +480,13 @@
       "slug": "parcel-tracker",
       "name": "Parcel Tracker",
       "version": "1.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Tracks your parcels across all major Chinese carriers, alerts on status changes, and notifies when delivery is near or complete.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/parcel-tracker",
-      "size_bytes": 5487,
-      "checksum": "sha256:27a2764804aa57a7ec6fad1fa6217c93659594ad4ba09cb330973f68150b0a4e",
+      "size_bytes": 5483,
+      "checksum": "sha256:61bc138d479da5896234caa8b7f292ab101ef642c1f8f9c2c959311cc48b55f0",
       "category": "productivity",
       "tags": [
         "parcel",
@@ -501,7 +501,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.871Z",
       "i18n": {
         "zh-CN": {
           "name": "快递追踪助手",
@@ -513,13 +513,13 @@
       "slug": "release-gatekeeper",
       "name": "Release Gatekeeper",
       "version": "1.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Automatically audits your GitHub repository before each release — checks CI status, open issues, PR health, and change scope — and gives a clear go/no-go decision.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/release-gatekeeper",
-      "size_bytes": 8956,
-      "checksum": "sha256:1e844ec3775604cbf6de99962d88ed5b6a3aa5853cff587f39e78fbfd3fbd8bc",
+      "size_bytes": 8952,
+      "checksum": "sha256:a1106d1de9767d6214a1b14bcfd3cf9ef7a29c03ac307da10f7d680047b8613c",
       "category": "dev-tools",
       "tags": [
         "release",
@@ -532,7 +532,7 @@
       "icon": "dev",
       "locale": "en-US",
       "min_app_version": "0.5.0",
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.871Z",
       "i18n": {
         "zh-CN": {
           "name": "发布风险守门员",
@@ -544,13 +544,13 @@
       "slug": "sentiment-monitor",
       "name": "Sentiment Monitor",
       "version": "1.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Tracks brand mentions, competitor moves, and policy changes across news and public platforms — delivers a daily risk-graded digest with actionable highlights.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/sentiment-monitor",
-      "size_bytes": 7312,
-      "checksum": "sha256:c5ba13b05da82061a939bb22da7f96f33839e2dea07e389c311958f28d26708c",
+      "size_bytes": 7308,
+      "checksum": "sha256:062a838540aae5025c24884a4106ca3b1932aa1ce48474041aa43f004bab041f",
       "category": "news",
       "tags": [
         "brand",
@@ -566,7 +566,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.871Z",
       "i18n": {
         "zh-CN": {
           "name": "舆情监测官",
@@ -581,13 +581,13 @@
       "slug": "site-health-monitor",
       "name": "Site Health Monitor",
       "version": "1.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Checks your website's critical user flows (login, checkout, key pages) on a schedule and alerts you the moment something breaks — before your users do.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/site-health-monitor",
-      "size_bytes": 6445,
-      "checksum": "sha256:62ce5aac43df68f3cd381ad621363d11d5521b9b2e80e594cfeffa6a26a8b9ef",
+      "size_bytes": 6441,
+      "checksum": "sha256:1c59ab559b2d816cf10d79b259a87b993c15c89b34d09fff1461a3df39ad6957",
       "category": "dev-tools",
       "tags": [
         "uptime",
@@ -603,7 +603,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.871Z",
       "i18n": {
         "zh-CN": {
           "name": "网站健康巡检官",
@@ -615,13 +615,13 @@
       "slug": "taobao-price-hunter",
       "name": "Taobao Price Hunter",
       "version": "1.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Monitors a Taobao or Tmall product page for price drops and promotions, notifies when the price hits the target, and avoids duplicate alerts.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/taobao-price-hunter",
-      "size_bytes": 6556,
-      "checksum": "sha256:1410f987e7ebc81209236951dbdd66e48715701afe266bd4668845c59c23badc",
+      "size_bytes": 6552,
+      "checksum": "sha256:5d3ac73d75df69adb1e183a3e60e92509573813560738d9bc4c38dd745b4aa2c",
       "category": "shopping",
       "tags": [
         "taobao",
@@ -636,7 +636,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.871Z",
       "i18n": {
         "zh-CN": {
           "name": "淘宝天猫价格猎手",
@@ -648,13 +648,13 @@
       "slug": "tender-radar",
       "name": "Tender Radar",
       "version": "1.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Monitors government and enterprise procurement portals for new tenders matching your industry, budget, and region — delivers a prioritized opportunity list every day.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/tender-radar",
-      "size_bytes": 7017,
-      "checksum": "sha256:4b589d501938176705d199ec97181f39f7e2b16ae81d1132cd75209d6c8ea248",
+      "size_bytes": 7013,
+      "checksum": "sha256:7738725f8e7bc0129c661a88d72c51babfa5e8df631f48bb6acb59684e66ca39",
       "category": "productivity",
       "tags": [
         "tender",
@@ -669,7 +669,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.872Z",
       "i18n": {
         "zh-CN": {
           "name": "招投标机会雷达",
@@ -681,13 +681,13 @@
       "slug": "ticket-triage-agent",
       "name": "Ticket Triage Agent",
       "version": "1.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Receives incoming support tickets via webhook, classifies them by type and urgency, generates a first-response draft, and escalates high-priority cases immediately.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/ticket-triage-agent",
-      "size_bytes": 6478,
-      "checksum": "sha256:31747ce59d39b1b2f071341157b6b7202cdd90388655a9133cbeafa5b94ced90",
+      "size_bytes": 6474,
+      "checksum": "sha256:37c29d43b3cd529f3398a6eb943c72c9b7bc251b2e5c7827d31a36d6f7f0ef2f",
       "category": "productivity",
       "tags": [
         "support",
@@ -700,7 +700,7 @@
       "icon": "productivity",
       "locale": "zh-CN",
       "min_app_version": "0.5.0",
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.872Z",
       "i18n": {
         "zh-CN": {
           "name": "客服工单分诊官",
@@ -712,13 +712,13 @@
       "slug": "train-ticket-watcher",
       "name": "Train Ticket Watcher",
       "version": "1.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Monitors 12306 for available train tickets on your chosen date and route, and alerts you the moment seats open up.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/train-ticket-watcher",
-      "size_bytes": 6979,
-      "checksum": "sha256:31448a66053d5cb1e31ecf8cb1a0d60cbac5d305c62b58750abdf77e553548b4",
+      "size_bytes": 6975,
+      "checksum": "sha256:7bcd4a04e7328afa3402e77058f8d4ebda2da896773cdff37e39e7cb71904ee1",
       "category": "productivity",
       "tags": [
         "train",
@@ -732,7 +732,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.872Z",
       "i18n": {
         "zh-CN": {
           "name": "12306 余票监控",
@@ -744,13 +744,13 @@
       "slug": "wechat-article-monitor",
       "name": "WeChat Article Monitor",
       "version": "2.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Monitors WeChat article source pages for new publications and delivers a deduplicated digest of fresh content.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/wechat-article-monitor",
-      "size_bytes": 5357,
-      "checksum": "sha256:ebf97714694f7d338f86f7bcfbedda8f88910b4f58ba9869909f08391b451aa8",
+      "size_bytes": 5353,
+      "checksum": "sha256:87010458201ad42a137d4838b487d3b80d3044f642db2b784b75d8c6a29320d4",
       "category": "content",
       "tags": [
         "wechat",
@@ -764,7 +764,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.872Z",
       "i18n": {
         "zh-CN": {
           "name": "微信文章监控",
@@ -776,13 +776,13 @@
       "slug": "wechat-group-assistant",
       "name": "微信群 AI 数字人(web 版本)",
       "version": "2.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "部署在微信群里的 AI 数字分身，通过微信网页版 DOM 自动监控群消息并智能回复。使用前提：在 Cafe AI 浏览器中打开 wx.qq.com 并保持登录状态，无需任何额外配置或桥接服务。",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/wechat-group-assistant",
-      "size_bytes": 9080,
-      "checksum": "sha256:bf1e8bf685f0269cebb182df046f44e9a276b179474f56189a9151315048b34a",
+      "size_bytes": 9076,
+      "checksum": "sha256:d122c3346237b51ea36fdd24b0f1b3a41c862581b743a8c3faf6feeedf9b01b2",
       "category": "social",
       "tags": [
         "wechat",
@@ -794,19 +794,19 @@
       "icon": "social",
       "locale": "zh-CN",
       "min_app_version": "0.5.0",
-      "updated_at": "2026-04-03T09:42:14.774Z"
+      "updated_at": "2026-03-29T06:31:56.872Z"
     },
     {
       "slug": "wechat-group-assistant-http",
       "name": "微信群 AI 数字人（HTTP Bridge 版）",
       "version": "1.1.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "An AI digital human that monitors a WeChat group, intelligently replies to relevant messages, and maintains persistent memory across sessions. Requires a custom WeChat HTTP bridge for message reading and sending.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/wechat-group-assistant-http",
-      "size_bytes": 9887,
-      "checksum": "sha256:07fdac64bda85c92bf5f3955d3239a19e6eec049b6adc4150a3c764076295aaa",
+      "size_bytes": 9883,
+      "checksum": "sha256:205279b8ccaec652c0c7e8e4372d3095e1b1ece1c708715b4460de47298962e4",
       "category": "social",
       "tags": [
         "wechat",
@@ -818,7 +818,7 @@
       "icon": "social",
       "locale": "zh-CN",
       "min_app_version": "0.5.0",
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.872Z",
       "i18n": {
         "zh-CN": {
           "name": "微信群 AI 数字人",
@@ -830,13 +830,13 @@
       "slug": "weibo-hot-tracker",
       "name": "Weibo Hot Tracker",
       "version": "2.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Tracks Weibo trending topics and reports meaningful rank changes — new entries, significant rises, and notable drops.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/weibo-hot-tracker",
-      "size_bytes": 5324,
-      "checksum": "sha256:230c18ca5578bfce8052e2988f9226ecee808572affd4c9b4e8b29e190bea180",
+      "size_bytes": 5320,
+      "checksum": "sha256:84b34410573e68554c919be48593970dd6119683df60e571eed40e3642757ee1",
       "category": "social",
       "tags": [
         "weibo",
@@ -850,7 +850,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.872Z",
       "i18n": {
         "zh-CN": {
           "name": "微博热点追踪",
@@ -865,13 +865,13 @@
       "slug": "xianyu-deal-hunter",
       "name": "Xianyu Deal Hunter",
       "version": "1.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Monitors Xianyu (Idle Fish) for new second-hand listings matching your search, filters by price and condition, and alerts you instantly on new finds.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/xianyu-deal-hunter",
-      "size_bytes": 5736,
-      "checksum": "sha256:c92b55c4e49ed8ada3860263409b7ba0678e7c75c5072aec57b455c3399dbef4",
+      "size_bytes": 5732,
+      "checksum": "sha256:586c5c97262a278f0b765d99e5ab41db18088a89fa6b518ce404f3b1a0a0ef02",
       "category": "shopping",
       "tags": [
         "xianyu",
@@ -886,7 +886,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-04-03T09:42:14.774Z",
+      "updated_at": "2026-03-29T06:31:56.872Z",
       "i18n": {
         "zh-CN": {
           "name": "闲鱼捡漏助手",
@@ -898,13 +898,13 @@
       "slug": "xiaohongshu-ai-engager",
       "name": "小红书互动助手",
       "version": "2.1.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "自动搜索小红书相关帖子，以真实用户语气发表简短评论，促进社区互动。",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/xiaohongshu-ai-engager",
-      "size_bytes": 22128,
-      "checksum": "sha256:b698931cf96c6cb55011054eb691f87fdb4a4294a49617a722af9182ae297144",
+      "size_bytes": 22108,
+      "checksum": "sha256:a9823417eacb50749b20039d2e0c89e9258144ffd1f94c2fcaf6726703abcfc1",
       "category": "social",
       "tags": [
         "xiaohongshu",
@@ -925,7 +925,7 @@
         "xhs-search",
         "xhs-comment"
       ],
-      "updated_at": "2026-04-03T09:42:14.776Z",
+      "updated_at": "2026-03-29T06:31:56.874Z",
       "meta": {
         "rank": 4
       }
@@ -934,13 +934,13 @@
       "slug": "xiaohongshu-keyword-monitor",
       "name": "Xiaohongshu Keyword Monitor",
       "version": "4.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Passively monitors Xiaohongshu for new posts mentioning your brand, product, or topic — surfaces what people are saying without any interaction.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/xiaohongshu-keyword-monitor",
-      "size_bytes": 17787,
-      "checksum": "sha256:594f7ef0753ad1a4c24d75c2bc40b63fd12d7ba171231fe00acef055c5faa056",
+      "size_bytes": 17775,
+      "checksum": "sha256:1577c5ec1f82d7f6502ce4adea2de6530447064f018a9363cc1cf05c3e9c4616",
       "category": "social",
       "tags": [
         "xiaohongshu",
@@ -958,7 +958,7 @@
       "requires_skills": [
         "xhs-search"
       ],
-      "updated_at": "2026-04-03T09:42:14.776Z",
+      "updated_at": "2026-03-29T06:31:56.874Z",
       "i18n": {
         "zh-CN": {
           "name": "小红书关键词监控",
@@ -973,13 +973,13 @@
       "slug": "zhihu-ai-answerer",
       "name": "知乎 AI 话题抢答助手",
       "version": "1.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "自动从多个来源（搜索、热搜、邀请）发现 AI 热门问题，生成犀利有深度的回答并发布，帮助账号在 AI 领域快速积累影响力。",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/zhihu-ai-answerer",
-      "size_bytes": 18903,
-      "checksum": "sha256:a14f5d0673e8ace9ebb420bdefe8d7c4f430572429b08514a13e400ddf4eee28",
+      "size_bytes": 18875,
+      "checksum": "sha256:46f02edbc7ad2e0b17ba5bdb8d3d5b2be9e34567df5563e0f93bf5c803fd25a3",
       "category": "social",
       "tags": [
         "zhihu",
@@ -1000,19 +1000,19 @@
         "zhihu-fill-editor",
         "zhihu-publish-answer"
       ],
-      "updated_at": "2026-04-03T09:42:14.777Z"
+      "updated_at": "2026-03-29T06:31:56.874Z"
     },
     {
       "slug": "zhihu-topic-monitor",
       "name": "Zhihu Topic Monitor",
       "version": "1.0.0",
-      "author": "openkursar",
+      "author": "kael-odin",
       "description": "Monitors a Zhihu topic for new high-quality questions and answers, and delivers a curated digest of what's worth reading.",
       "type": "automation",
       "format": "bundle",
       "path": "packages/digital-humans/zhihu-topic-monitor",
-      "size_bytes": 5423,
-      "checksum": "sha256:0e244637634d3c6ccc2e5266c7f69057f595c97f741880844c5acbe8d89ecd3a",
+      "size_bytes": 5419,
+      "checksum": "sha256:a9438a517246b0a2ade21e0714176e4e9630c28874eb9f264ad8c20b6ecf9148",
       "category": "content",
       "tags": [
         "zhihu",
@@ -1027,7 +1027,7 @@
       "requires_mcps": [
         "ai-browser"
       ],
-      "updated_at": "2026-04-03T09:42:14.777Z",
+      "updated_at": "2026-03-29T06:31:56.874Z",
       "i18n": {
         "zh-CN": {
           "name": "知乎话题监控",
@@ -1037,3 +1037,5 @@
     }
   ]
 }
+
+

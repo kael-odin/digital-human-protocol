@@ -1,7 +1,7 @@
 ﻿spec_version: "1"
 name: Xiaohongshu Keyword Monitor
 version: 4.0.0
-author: openkursar
+author: kael-odin
 description: Passively monitors Xiaohongshu for new posts mentioning your brand, product, or topic — surfaces what people are saying without any interaction.
 type: automation
 icon: social
@@ -206,7 +206,7 @@ store:
   locale: zh-CN
   min_app_version: 0.5.0
   license: MIT
-  repository: https://github.com/openkursar/digital-human-protocol
+  repository: https://github.com/kael-odin/digital-human-protocol
   meta:
     rank: 1
 i18n:
@@ -253,4 +253,5 @@ i18n:
         label: 输出语言
         options:
           zh-CN: 中文
+
 

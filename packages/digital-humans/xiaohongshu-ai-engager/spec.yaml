@@ -1,7 +1,7 @@
 ﻿spec_version: "1"
 name: 小红书互动助手
 version: "2.1.0"
-author: openkursar
+author: kael-odin
 description: 自动搜索小红书相关帖子，以真实用户语气发表简短评论，促进社区互动。
 type: automation
 icon: social
@@ -171,7 +171,8 @@ store:
   locale: zh-CN
   min_app_version: "0.5.0"
   license: MIT
-  repository: https://github.com/openkursar/digital-human-protocol
+  repository: https://github.com/kael-odin/digital-human-protocol
   meta:
     rank: 4
+
 

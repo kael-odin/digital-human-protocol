@@ -83,3 +83,4 @@ When you need to search Xiaohongshu for posts by keyword. This skill handles log
 | No search results | `{ "success": true, "logged_in": true, "posts": [], "total": 0, "has_more": false }` |
 | API timeout | `{ "success": false, "error": "Search API did not respond within timeout" }` |
 
+

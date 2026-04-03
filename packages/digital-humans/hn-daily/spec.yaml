@@ -1,7 +1,7 @@
 ﻿spec_version: "1"
 name: HN Daily Brief
 version: "2.0.0"
-author: openkursar
+author: kael-odin
 description: Summarizes high-value Hacker News discussions every morning and delivers a deduped, actionable digest.
 type: automation
 icon: news
@@ -114,7 +114,7 @@ store:
   locale: en-US
   min_app_version: "0.5.0"
   license: MIT
-  repository: https://github.com/openkursar/digital-human-protocol
+  repository: https://github.com/kael-odin/digital-human-protocol
   meta:
     rank: 5
 
@@ -140,4 +140,5 @@ i18n:
         options:
           en-US: English
           zh-CN: 中文
+
 

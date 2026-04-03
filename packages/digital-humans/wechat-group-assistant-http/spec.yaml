@@ -1,7 +1,7 @@
 ﻿spec_version: "1"
 name: 微信群 AI 数字人（HTTP Bridge 版）
 version: "1.1.0"
-author: openkursar
+author: kael-odin
 description: An AI digital human that monitors a WeChat group, intelligently replies to relevant messages, and maintains persistent memory across sessions. Requires a custom WeChat HTTP bridge for message reading and sending.
 type: automation
 icon: social
@@ -225,7 +225,7 @@ store:
   locale: zh-CN
   min_app_version: "0.5.0"
   license: MIT
-  repository: https://github.com/openkursar/digital-human-protocol
+  repository: https://github.com/kael-odin/digital-human-protocol
 
 i18n:
   zh-CN:
@@ -258,4 +258,5 @@ i18n:
       owner_style:
         label: 主人说话风格（可选）
         description: 描述主人的说话风格，数字人将尽量模仿
+
 

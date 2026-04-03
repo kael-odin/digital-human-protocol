@@ -1,7 +1,7 @@
 ﻿spec_version: "1"
 name: Tender Radar
 version: "1.0.0"
-author: openkursar
+author: kael-odin
 description: Monitors government and enterprise procurement portals for new tenders matching your industry, budget, and region — delivers a prioritized opportunity list every day.
 type: automation
 icon: data
@@ -167,7 +167,7 @@ store:
   locale: zh-CN
   min_app_version: "0.5.0"
   license: MIT
-  repository: https://github.com/openkursar/digital-human-protocol
+  repository: https://github.com/kael-odin/digital-human-protocol
 
 i18n:
   zh-CN:
@@ -197,4 +197,5 @@ i18n:
         options:
           zh-CN: 中文
           en-US: English
+
 

@@ -13,3 +13,4 @@ Goals:
 - Keep registry protocol source-agnostic (`index.json` over HTTP).
 - Support future expansion to bundled dependencies.
 
+

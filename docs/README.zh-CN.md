@@ -6,10 +6,10 @@
 
 定义、发布和运行**数字人**——可在后台稳定运行的生产级 AI Agent。
 
-[![GitHub Stars](https://img.shields.io/github/stars/openkursar/digital-human-protocol?style=social)](https://github.com/openkursar/digital-human-protocol/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/kael-odin/digital-human-protocol?style=social)](https://github.com/kael-odin/digital-human-protocol/stargazers)
 [![协议许可: CC0](https://img.shields.io/badge/协议-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![示例许可: MIT](https://img.shields.io/badge/示例-MIT-blue.svg)](https://opensource.org/license/mit)
-[![注册表](https://img.shields.io/badge/注册表-在线-brightgreen.svg)](https://openkursar.github.io/digital-human-protocol/index.json)
+[![注册表](https://img.shields.io/badge/注册表-在线-brightgreen.svg)](https://kael-odin.github.io/digital-human-protocol/index.json)
 
 [快速开始](#快速开始) · [字段参考](../spec/app-spec.md) · [示例](#示例) · [发布](#发布数字人) · **[English](../README.md)**
 
@@ -199,7 +199,7 @@ node scripts/build-index.mjs
 
 ## Registry
 
-- **Index URL：** `https://openkursar.github.io/digital-human-protocol/index.json`
+- **Index URL：** `https://kael-odin.github.io/digital-human-protocol/index.json`
 - **协议详情：** [`spec/registry-protocol.md`](../spec/registry-protocol.md)
 
 客户端先读取 `index.json`，再按路径安装各数字人的 `spec.yaml`。
@@ -215,4 +215,5 @@ node scripts/build-index.mjs
 [回到顶部](#数字人协议-dhp)
 
 </div>
+
 

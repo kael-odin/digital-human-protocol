@@ -72,3 +72,4 @@ user-invocable: false
 3. 等待 400ms Vue nextTick 异步更新后点击发送
 4. XHR 拦截 `comment/post` 响应，通过 `success: true` 确认发布成功，而非依赖 DOM 变化判断
 
+

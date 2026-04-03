@@ -17,5 +17,6 @@ jobs:
           node-version: 20
 
       - name: Verify index.json is current
-        run: node scripts/build-index.mjs --check --source=https://openkursar.github.io/digital-human-protocol
+        run: node scripts/build-index.mjs --check --source=https://kael-odin.github.io/digital-human-protocol
+
 

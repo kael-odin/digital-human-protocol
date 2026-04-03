@@ -1,7 +1,7 @@
 ﻿spec_version: "1"
 name: WeChat Article Monitor
 version: "2.0.0"
-author: openkursar
+author: kael-odin
 description: Monitors WeChat article source pages for new publications and delivers a deduplicated digest of fresh content.
 type: automation
 icon: content
@@ -132,7 +132,7 @@ store:
   locale: zh-CN
   min_app_version: "0.5.0"
   license: MIT
-  repository: https://github.com/openkursar/digital-human-protocol
+  repository: https://github.com/kael-odin/digital-human-protocol
 
 i18n:
   zh-CN:
@@ -161,4 +161,5 @@ i18n:
         options:
           en-US: English
           zh-CN: 中文
+
 

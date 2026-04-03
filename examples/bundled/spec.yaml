@@ -2,7 +2,7 @@
   "spec_version": "1",
   "name": "Bundled CRM Analyst",
   "version": "0.1.0",
-  "author": "openkursar",
+  "author": "kael-odin",
   "description": "Example bundle package with bundled skill and MCP.",
   "type": "automation",
   "system_prompt": "You are a CRM analyst with access to bundled connectors and analysis skill.",
@@ -41,4 +41,5 @@
     "license": "MIT"
   }
 }
+
 

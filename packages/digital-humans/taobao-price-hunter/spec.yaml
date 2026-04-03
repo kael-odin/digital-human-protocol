@@ -1,7 +1,7 @@
 ﻿spec_version: "1"
 name: Taobao Price Hunter
 version: "1.0.0"
-author: openkursar
+author: kael-odin
 description: Monitors a Taobao or Tmall product page for price drops and promotions, notifies when the price hits the target, and avoids duplicate alerts.
 type: automation
 icon: shopping
@@ -151,7 +151,7 @@ store:
   locale: zh-CN
   min_app_version: "0.5.0"
   license: MIT
-  repository: https://github.com/openkursar/digital-human-protocol
+  repository: https://github.com/kael-odin/digital-human-protocol
 
 i18n:
   zh-CN:
@@ -176,4 +176,5 @@ i18n:
         options:
           en-US: English
           zh-CN: 中文
+
 

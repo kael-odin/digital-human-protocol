@@ -1,7 +1,7 @@
 ﻿spec_version: "1"
 name: Code Complexity Watchdog
 version: "1.0.0"
-author: openkursar
+author: kael-odin
 description: Watches your source files for changes and runs instant complexity checks — alerts when a file grows too large or accumulates too many TODO/FIXME markers, so tech debt stays visible.
 type: automation
 icon: dev
@@ -211,7 +211,7 @@ store:
   locale: en-US
   min_app_version: "0.5.0"
   license: MIT
-  repository: https://github.com/openkursar/digital-human-protocol
+  repository: https://github.com/kael-odin/digital-human-protocol
 
 i18n:
   zh-CN:
@@ -237,4 +237,5 @@ i18n:
         options:
           en-US: English
           zh-CN: 中文
+
 
